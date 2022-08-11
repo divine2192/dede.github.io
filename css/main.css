@@ -10,7 +10,7 @@
 	Typography
 -------------------------------------------------------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Cutive%20Mono:400);
+@import url(@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap');m);
 p {
 	font-size: 14px;
 	line-height: 22.4px;
@@ -72,9 +72,9 @@ a:hover, a:focus {
 	transition: background-color, color, 0.3s;
 }
 body {
-	font-family: "Cutive Mono";
-	font-weight: 400;
-	color: #fff;
+	font-family: "Poppins";
+	font-weight: 100; background-color:#f8f8f8;
+	
 }
 ul, ol {
 	margin: 0;
@@ -112,12 +112,12 @@ ul li {
 	-o-transition: padding 0.3s;
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
-}
+} .current{ border-bottom: 1px solid #000; color: #000 !important;}
 #header .logo {
 	float: left;
 }
 #header.fixed {
-	background-color: rgba(255, 255, 255, 1);
+	background-color: #f8f8f8;;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -141,10 +141,10 @@ ul li {
 	display: inline-block;
 }
 .navigation, .navigation a {
-	color: rgba(0, 0, 0, 1);
+	color: grey;
 	font-size: 16px;
 	margin-left: 40px;
-	letter-spacing: -1px;
+	letter-spacing: -1px; 
 }
 .navigation a:hover, .navigation a.active {
 	color: #000;
@@ -294,15 +294,15 @@ ul li {
 .hero-content {
 }
 .hero h1 {
-	font-size: 48px;
-	text-transform: uppercase;
+	font-size: 38px; font-weight: 600; text-align:center;color:#3E1632;
+	
 }
 .hero h4 {
 	font-weight: 400;
 }
 .hero p {
 	padding-top: 20px;
-}
+} .hero-c{margin-top: 10%;}
 /* ------------------------------------------------------------------------------
 	 Portfolio
 -------------------------------------------------------------------------------*/
@@ -409,7 +409,7 @@ ul li {
 	color: #e84545;
 	font-size: 11px;
 	margin: 0 2px;
-}
+} 
 /* ------------------------------------------------------------------------------
 	 Work Details
 -------------------------------------------------------------------------------*/
